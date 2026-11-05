@@ -1,0 +1,19 @@
+{
+  "name": "interview-questions",
+  "version": "1.0.0",
+  "description": "后端与前端面试题：基于 Java Tio-Boot、Go Hertz 的登录系统，以及 Cloudflare Workers 书签应用",
+  "license": "MIT",
+  "type": "module",
+  "packageManager": "pnpm@10.34.9",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  },
+  "devDependencies": {
+    "vitepress": "^1.6.4"
+  }
+}
